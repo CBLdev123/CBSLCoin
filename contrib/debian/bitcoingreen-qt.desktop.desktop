@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cbslcoin
+Comment=Cbslcoin P2P Cryptocurrency
+Exec=cbslcoin-qt %u
+Terminal=false
+Type=Application
+Icon=cbslcoin128
+MimeType=x-scheme-handler/cbslcoin;
+Categories=Office;Finance;
+Name[en_US]=cbslcoin-qt.desktop

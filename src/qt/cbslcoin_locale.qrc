@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cbslcoin_bg.qm</file>
+        <file alias="ca">locale/cbslcoin_ca.qm</file>
+        <file alias="cs">locale/cbslcoin_cs.qm</file>
+        <file alias="da">locale/cbslcoin_da.qm</file>
+        <file alias="de">locale/cbslcoin_de.qm</file>
+        <file alias="en">locale/cbslcoin_en.qm</file>
+        <file alias="en_US">locale/cbslcoin_en_US.qm</file>
+        <file alias="es">locale/cbslcoin_es.qm</file>
+        <file alias="fi">locale/cbslcoin_fi.qm</file>
+        <file alias="fr_FR">locale/cbslcoin_fr_FR.qm</file>
+        <file alias="it">locale/cbslcoin_it.qm</file>
+        <file alias="ja">locale/cbslcoin_ja.qm</file>
+        <file alias="ko_KR">locale/cbslcoin_ko_KR.qm</file>
+        <file alias="nl">locale/cbslcoin_nl.qm</file>
+        <file alias="pl">locale/cbslcoin_pl.qm</file>
+        <file alias="pt">locale/cbslcoin_pt.qm</file>
+        <file alias="pt_BR">locale/cbslcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cbslcoin_ro_RO.qm</file>
+        <file alias="ru">locale/cbslcoin_ru.qm</file>
+        <file alias="sk">locale/cbslcoin_sk.qm</file>
+        <file alias="sv">locale/cbslcoin_sv.qm</file>
+        <file alias="tr">locale/cbslcoin_tr.qm</file>
+        <file alias="uk">locale/cbslcoin_uk.qm</file>
+        <file alias="zh_CN">locale/cbslcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cbslcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
