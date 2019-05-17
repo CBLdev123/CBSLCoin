@@ -1571,8 +1571,8 @@ int64_t GetBlockValue(int nHeight)
     /* block rewards. */
 
          if (nHeight >=       1 && nHeight <=       1) {nSubsidy =  420000.00 * COIN;}
-    else if (nHeight >=       2 && nHeight <=   10000) {nSubsidy =       1.00 * COIN;}
-    else if (nHeight >=    10001 && nHeight <=  75700) {nSubsidy =      12.00 * COIN;}
+    else if (nHeight >=       2 && nHeight <=   25000) {nSubsidy =       1.00 * COIN;}
+    else if (nHeight >=   25001 && nHeight <=   75700) {nSubsidy =      12.00 * COIN;}
     else if (nHeight >=   75701 && nHeight <=  141400) {nSubsidy =      11.50 * COIN;}
     else if (nHeight >=  141401 && nHeight <=  207100) {nSubsidy =      11.00 * COIN;}
     else if (nHeight >=  207101 && nHeight <=  272800) {nSubsidy =      10.50 * COIN;}
@@ -2189,7 +2189,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
-    if (pindex->nHeight > 67000 ) {
+    if (pindex->nHeight > 10000 ) {
         if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {
             return state.DoS(100,
                 error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",

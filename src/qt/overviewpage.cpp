@@ -345,7 +345,7 @@ void OverviewPage::SetLinks()
 
     ui->labelLinksUrl1->setText("<a href=\"https://cbslco.in/\">https://cbslco.in/</a>");
     ui->labelLinksUrl2->setText("<a href=\"https://github.com/CBLdev123\">https://github.com/CBLdev123</a>");
-    ui->labelLinksUrl3->setText("<a href=\"https://explorer.cbslco.in/\">https://explorer.cbslco.in/</a>");
+    ui->labelLinksUrl3->setText("<a href=\"https://cbsl.coinexplorer.xyz/\">https://cbsl.coinexplorer.xyz/</a>");
     ui->labelLinksUrl4->setText("<a href=\"https://discord.gg/Sshac7S\">https://discord.gg/Sshac7S</a>");
     ui->labelLinksUrl5->setText("<a href=\"https://twitter.com/cbsl15\">https://twitter.com/cbsl15</a>");
     ui->labelLinksUrl6->setText("");
